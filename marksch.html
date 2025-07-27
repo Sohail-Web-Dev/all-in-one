@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Marks Checker</title>
+  <link rel="stylesheet" href="style11.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+  <h1>Marks Checker</h1>
+  <form onsubmit="return checkMarks()">
+  <input type="number" id="urdu" placeholder="Urdu Marks (0-100)" min="0" max="100" required>
+  <input type="number" id="english" placeholder="English Marks (0-100)" min="0" max="100" required>
+  <input type="number" id="maths" placeholder="Maths Marks (0-100)" min="0" max="100" required>
+  <button type="submit">Check Your Marks!</button>
+  </form>
+  </div>
+  <script src="script11.js"></script>
+</body>
+</html>
